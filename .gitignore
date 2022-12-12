@@ -9,3 +9,5 @@ package.tar.gz
 libcore.dylib
 libonnxruntime.1.10.0.dylib
 open_jtalk_dic_utf_8-1.11
+
+.DS_Store
