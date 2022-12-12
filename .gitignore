@@ -2,8 +2,9 @@ build
 *.wav
 package
 zundamon
-pkg
-pkg.tar.gz
+package
+package.tar
+package.tar.gz
 
 libcore.dylib
 libonnxruntime.1.10.0.dylib
