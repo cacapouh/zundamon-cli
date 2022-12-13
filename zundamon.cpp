@@ -8,14 +8,14 @@
 
 int main(int argc, char *argv[])
 {
-    if (argc != 2)
+    if (argc != 3)
     {
-        std::cout << "使い方: ./simple_tts <文章>" << std::endl;
+        std::cout << "Invalid argument" << std::endl;
         return 0;
     }
 
-    std::string open_jtalk_dict_path("open_jtalk_dic_utf_8-1.11");
-    std::string text(argv[1]);
+    std::string open_jtalk_dict_path(argv[1]);
+    std::string text(argv[2]);
 
     std::cout << "coreの初期化中..." << std::endl;
 
